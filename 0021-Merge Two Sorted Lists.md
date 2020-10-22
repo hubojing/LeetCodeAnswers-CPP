@@ -39,6 +39,7 @@ public:
 
 ## 法二：递归法
 如果l1或者l2是空链表 ，无需合并，只需返回非空链表。否则，要判断l1和l2哪一个链表的头节点的值更小，然后递归地决定下一个添加到结果里的节点。如果两个链表有一个为空，递归结束。
+![图解](https://pic.leetcode-cn.com/e59fd2981f3633cc70a90bd3136e07647ecf89c6f4eefb82159ea54db9772889-%E5%B9%BB%E7%81%AF%E7%89%875.JPG)
 ```cpp
 class Solution {
 public:
